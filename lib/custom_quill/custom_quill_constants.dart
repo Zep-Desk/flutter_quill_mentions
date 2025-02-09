@@ -14,6 +14,7 @@ final _textStyle = TextStyle(
 
 final _textDarkBlockStyle = DefaultListBlockStyle(
   TextStyle(color: textColor),
+  const HorizontalSpacing(0, 0),
   const VerticalSpacing(0, 0),
   const VerticalSpacing(0, 0),
   BoxDecoration(
@@ -24,6 +25,7 @@ final _textDarkBlockStyle = DefaultListBlockStyle(
 
 final _textBlockStyle = DefaultTextBlockStyle(
   TextStyle(color: textColor),
+  const HorizontalSpacing(0, 0),
   const VerticalSpacing(0, 0),
   const VerticalSpacing(0, 0),
   BoxDecoration(
@@ -33,6 +35,7 @@ final _textBlockStyle = DefaultTextBlockStyle(
 
 final _listBlockStyle = DefaultListBlockStyle(
   TextStyle(color: textColor),
+  const HorizontalSpacing(0, 0),
   const VerticalSpacing(0, 0),
   const VerticalSpacing(0, 0),
   BoxDecoration(

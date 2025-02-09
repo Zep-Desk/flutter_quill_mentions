@@ -25,7 +25,6 @@ class CustomQuillViewer extends StatelessWidget {
         padding: const EdgeInsets.all(8),
         maxHeight: 200,
         minHeight: 30,
-        readOnly: true,
         showCursor: false,
         customStyles: defaultStyles,
         isOnTapOutsideEnabled: true,
